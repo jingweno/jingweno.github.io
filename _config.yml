@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Owen Ou's tech blog.
 twitter_username: owenthereal
 github_username: jingweno
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
