@@ -50,7 +50,7 @@ for example, gets all commits since yesterday for the Rails project:
 
 You can filter commits by author in the commit view by appending param
 **?author=github_handle**. For exmaple, the link
-[https://github.com/dynjs/dynjs/commits/master?author=jingweno](https://github.com/dynjs/dynjs/commits/master?author=jingweno)
+[https://github.com/dynjs/dynjs/commits/master?author=owenthereal](https://github.com/dynjs/dynjs/commits/master?author=owenthereal)
 shows a list of my commits to the [Dynjs](http://dynjs.org/) project:
 
 ![GitHub Filter Commits By Author](/assets/images/posts/github_filter_by_author.png){: .align-center}

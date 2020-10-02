@@ -39,7 +39,7 @@ The trick behind `go test` is convention over confication:
 if you create a file called `xxx_test.go` and name the test function `TestXxx`, where `xxx` is the test name,
 your test will be run.
 
-We could do something similar for an idiomatic build tool in Go: introducing [gotask](https://github.com/jingweno/gotask).
+We could do something similar for an idiomatic build tool in Go: introducing [gotask](https://github.com/owenthereal/gotask).
 
 ## Gotask
 
@@ -51,7 +51,7 @@ Consider the following task function in a file called `sayhello_task.go`:
 package main
 
 import (
-    "github.com/jingweno/gotask/tasking"
+    "github.com/owenthereal/gotask/tasking"
     "os/user"
     "time"
 )
@@ -131,7 +131,7 @@ $ gotask say-hello -v
 Hello Owen Ou, the time now is 2013-11-20 15:32:00.73771438 -0800 PST
 ```
 
-Yes, that's [gotask](https://github.com/jingweno/gotask), an idiomatic way of writing build tasks in Go.
+Yes, that's [gotask](https://github.com/owenthereal/gotask), an idiomatic way of writing build tasks in Go.
 
 ### Convention over Configuration
 
@@ -143,7 +143,7 @@ You create a file called `TASK_NAME_task.go` and name the task function in the f
 
 package main
 
-import "github.com/jingweno/gotask/tasking"
+import "github.com/owenthereal/gotask/tasking"
 
 // NAME
 //    The name of the task - a one-line description of what it does
@@ -201,6 +201,6 @@ Hello Owen Ou
 With `gotask`, you're able to write idiomatic Go code for build tasks.
 In the future, I would hope `gotask` can be part of the [Go toolchain](http://golang.org/src/cmd/go), so that you can simply type `go task` without installing another tool.
 If you're a Go committer reading this blog post and are convinced that `gotask` worths being port to the Go toolchain, feel free to ping me. I'm happy to help out with the integration :).
-If you're a user of `gotask` and would like to help out with the development, the project page is [here](https://github.com/jingweno/gotask).
+If you're a user of `gotask` and would like to help out with the development, the project page is [here](https://github.com/owenthereal/gotask).
 
 Happy tasking!

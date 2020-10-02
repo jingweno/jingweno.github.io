@@ -181,7 +181,7 @@ Again, running "*mvn jetty:run*" will start up these two servers at once.
 
 As you may see, after setting up Jetty in the build process, we are able to start up the server with just one command. It speeds up the setup of our development environment and free ourselves from repeating the setup steps in the future. Most importantly, your teammates will thank you for saving a lot of their precious time.
 
-The source code of the example is available here: <https://github.com/jingweno/maven_jetty_plugin_example>.
+The source code of the example is available here: <https://github.com/owenthereal/maven_jetty_plugin_example>.
 
 
 [1]: http://wiki.eclipse.org/Jetty/Feature/Jetty_Maven_Plugin

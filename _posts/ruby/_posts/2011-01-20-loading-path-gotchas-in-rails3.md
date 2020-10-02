@@ -63,5 +63,5 @@ The code of the two examples above are available [here][2]. It has a simple view
 And check two pages: <http://localhost:3000/class1> and <http://localhost:3000/class2>.
 
 [1]: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/dependencies.rb 
-[2]: https://github.com/jingweno/loading_path_gotchas_in_rails3/tree/master/app/models
+[2]: https://github.com/owenthereal/loading_path_gotchas_in_rails3/tree/master/app/models
 [3]: https://rails.lighthouseapp.com/projects/8994-ruby-on-rails/tickets/6320-autoloading-behaves-weird-when-class-caching-is-turned-off

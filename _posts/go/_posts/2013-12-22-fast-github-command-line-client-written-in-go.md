@@ -3,9 +3,9 @@ title: Fast GitHub Command Line Client Written in Go
 categories: go
 ---
 
-About [nine months ago](https://github.com/jingweno/gh/commit/d5615fcb6f9c983fbf5d1297700a26531ddf1173), I started [gh](https://github.com/jingweno/gh),
+About [nine months ago](https://github.com/owenthereal/gh/commit/d5615fcb6f9c983fbf5d1297700a26531ddf1173), I started [gh](https://github.com/owenthereal/gh),
 a fast command line wrapper around git with extra features and commands that make working with GitHub easier.
-Today, I'm very glad to announce its [1.0.0](https://github.com/jingweno/gh/releases/tag/v1.0.0) release has landed!
+Today, I'm very glad to announce its [1.0.0](https://github.com/owenthereal/gh/releases/tag/v1.0.0) release has landed!
 
 ## What is gh?
 
@@ -19,7 +19,7 @@ $ gh fork
 
 # make some changes
 
-$ gh pull-request -m "Implemented feature X" -b rails:master -h jingweno:feature
+$ gh pull-request -m "Implemented feature X" -b rails:master -h owenthereal:feature
 ```
 
 ## Hub in Go
@@ -68,27 +68,27 @@ The numbers above is to show `gh` is in general more responsive.
 `gh` is fully implemented in the Go language and is designed to run across operating systems.
 By making use of [cross-compilation](http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go),
 `gh` can be easily compiled to binaries for any major operating systems.
-There're no pre-requirements to install `gh` (no VMs!). Download the [binary](https://github.com/jingweno/gh/releases) and go!
+There're no pre-requirements to install `gh` (no VMs!). Download the [binary](https://github.com/owenthereal/gh/releases) and go!
 
 ## Compatibility with Hub
 
 I've tried very hard to make `gh` a drop-in replacement to `hub`.
-I've pulled in all the [cucumber tests](https://github.com/jingweno/gh/tree/master/features) from `hub` and 90% of them are passing now.
+I've pulled in all the [cucumber tests](https://github.com/owenthereal/gh/tree/master/features) from `hub` and 90% of them are passing now.
 I'll continuously put efforts on making `gh` fully compatible with `hub`.
 
 ## More Features
 
-`gh` has features like [autoupdate](https://github.com/jingweno/gh#autoupdate), [releases](https://github.com/jingweno/gh#gh-release-beta) and [issues](https://github.com/jingweno/gh#gh-issues-beta) that are not available in `hub`.
-There're plans to add more features in the upcoming releases, for example, the support of [creating releases](https://github.com/jingweno/gh/pull/129).
+`gh` has features like [autoupdate](https://github.com/owenthereal/gh#autoupdate), [releases](https://github.com/owenthereal/gh#gh-release-beta) and [issues](https://github.com/owenthereal/gh#gh-issues-beta) that are not available in `hub`.
+There're plans to add more features in the upcoming releases, for example, the support of [creating releases](https://github.com/owenthereal/gh/pull/129).
 
 ## Thanks
 
 It's been nine months of hard work on `gh`.
-I would like to thank all the [contributors](https://github.com/jingweno/gh/graphs/contributors),
+I would like to thank all the [contributors](https://github.com/owenthereal/gh/graphs/contributors),
 especially [@calavera](https://github.com/calavera), [@dgryski](https://github.com/dgryski) and [@tgkokk](https://github.com/tgkokk).
 I would also like to thank all the early adopters of `gh`.
 If you have any suggestions to `gh`,
-feel free to fire us a [GitHub issue](https://github.com/jingweno/gh/issues?state=open).
+feel free to fire us a [GitHub issue](https://github.com/owenthereal/gh/issues?state=open).
 If you're interested in helping out, shoot me an email.
 I'm very excited to see more great stuff coming to `gh` in the new year!
 

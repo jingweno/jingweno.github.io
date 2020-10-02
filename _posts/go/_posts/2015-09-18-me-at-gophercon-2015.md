@@ -3,7 +3,7 @@ title: My Lightening Talk At GopherCon 2015
 categories: go
 ---
 
-I demoed [ccat](https://github.com/jingweno/ccat) at [GopherCon](http://www.gophercon.com/) 2015. Enjoy :-)
+I demoed [ccat](https://github.com/owenthereal/ccat) at [GopherCon](http://www.gophercon.com/) 2015. Enjoy :-)
 
 <div>
 <iframe width="1280" height="720"

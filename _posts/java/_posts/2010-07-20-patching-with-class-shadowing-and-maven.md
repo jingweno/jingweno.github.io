@@ -77,7 +77,7 @@ Now HelloWorldTest can safely depends on HelloWorldProxy and expects that HelloW
 </dependency>
 ```
 
-The source of this example is available on GitHub <http://github.com/jingweno/patching_with_class_shadowing_and_maven>. You can also view it directly with CodeFaces <http://codefaces.org/http://github.com/jingweno/patching_with_class_shadowing_and_maven>.
+The source of this example is available on GitHub <http://github.com/owenthereal/patching_with_class_shadowing_and_maven>. You can also view it directly with CodeFaces <http://codefaces.org/http://github.com/owenthereal/patching_with_class_shadowing_and_maven>.
 
 [1]: http://mindprod.com/jgloss/shadow.html
 [2]: http://maven.apache.org/plugins/maven-war-plugin/examples/war-overlay.html
